@@ -1,0 +1,7 @@
+{
+  "name": "kulpro",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
