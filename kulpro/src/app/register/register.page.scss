@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+  }
+
+  ion-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+
+  input {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid var(--Border, #E8ECF4);
+    background: #F7F8F9;
+    // color: var(--Gray, #8391A1);
+    // font-size: 12px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+
+input:focus {
+    outline: none; 
+    border-color: #4A90E2; 
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5); 
+    color: #000; 
+}
+
+select{
+    border-radius: 8px;
+    border: 1px solid var(--Border, #E8ECF4);
+    background: #F7F8F9;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+// clases
+
+.btn-back {
+    border-radius: 12px;
+    border: 1px solid var(--Border, #cacdd3);
+    background: var(--White, #FFF);
+    padding: 10px 8px 4px 6px;
+    margin: 0;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+    ion-icon {
+        font-size: 30px;
+        color: #1E232C;
+        margin: 0;
+    }
+}
+
+.container-register {
+    max-width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.form-register{
+
+    h1{
+        color: var(--Dark, #1E232C);
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%; /* 39px */
+        letter-spacing: -0.3px;
+        margin-top: 80px;
+    }
+}
+
+.name-div {
+    display: flex;
+    // flex-direction: column;
+    gap: 10px; /* Añade algo de espacio entre los inputs */
+    width: 100%;
+  }
+  
+.number-div{
+    display: flex;
+}
+
+.document-div{
+    display: flex;
+}
+
+.buttons{
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    button{
+        border-radius: 5px;
+        background: #002CC8;    
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        color: #FFF;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 14px;
+    }
+}
+
+.fast-register{
+    display: flex;
+    width: 100%;
+    button{
+        border-radius: 8px;
+        border: 1px solid #4668BF;
+        background: var(--White, #FFF);
+        padding: 4px 21px;
+        margin: 10px;
+
+        ion-icon{
+            font-size: 25px;
+        }
+    }
+}

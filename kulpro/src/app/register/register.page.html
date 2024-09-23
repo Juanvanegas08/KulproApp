@@ -1,13 +1,58 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>register</ion-title>
-  </ion-toolbar>
-</ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">register</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="btn-back" (click)="goBack()">
+    <ion-icon name="chevron-back-outline"></ion-icon>
+  </div>
+
+  <div class="container-register">
+    <div class="form-register">
+      <h1>Hola! Registrate para empezar</h1>
+      <form action="">
+        <div class="name-div">
+          <input placeholder="Nombre" type="text">
+          <input placeholder="Apellido" type="text">
+        </div>
+        <div class="email-div">
+          <input placeholder="Correo" type="email">
+        </div>
+
+        <div class="email-div">
+          <input placeholder="Contraseña" type="password">
+        </div>
+
+        <div class="number-div">
+          <select name="" id="">
+            <option value="colombia">+57</option>
+          </select>
+          <input placeholder="Tu Numero" type="tel">
+        </div>
+
+        <div class="document-div">
+          <select name="" id="">
+            <option value="colombia">C.C</option>
+          </select>
+          <input placeholder="Tu Documento" type="tel">
+        </div>
+
+        <div class="buttons">
+          <button >Registrarse</button>
+        </div>
+      </form>
+
+      <div class="fast-register">
+        <button>
+          <ion-icon name="call"></ion-icon>
+        </button>
+        <button>
+          <ion-icon name="logo-google"></ion-icon>
+        </button>
+        <button>
+          <ion-icon name="logo-apple"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+
 </ion-content>
