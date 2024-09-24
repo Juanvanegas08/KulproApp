@@ -115,18 +115,61 @@ select{
     }
 }
 
-.fast-register{
-    display: flex;
-    width: 100%;
-    button{
-        border-radius: 8px;
-        border: 1px solid #4668BF;
-        background: var(--White, #FFF);
-        padding: 4px 21px;
-        margin: 10px;
 
-        ion-icon{
-            font-size: 25px;
-        }
+.divisionButton{
+    display: flex;
+    margin-top: 10px;
+    color: #6A707C;
+
+    hr{
+        border: 1px solid #a9abb0;
+        flex: 1;
+        margin: 10px;
     }
 }
+
+.fast-register {
+    display: flex;
+    justify-content: space-between; /* Espacio entre los botones */
+    gap: 10px; /* Espacio entre los botones */
+    width: 100%;
+}
+
+.fast-register button {
+    flex: 1; /* Para que cada botón ocupe el mismo espacio */
+    border-radius: 8px;
+    border: 1px solid #4668BF;
+    background: var(--White, #FFF);
+    padding: 14px; /* Ajusta el tamaño del padding para hacer los botones más grandes */
+    margin: 10px 0; /* Elimina los márgenes laterales */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centrar iconos */
+}
+
+.fast-register ion-icon {
+    font-size: 25px;
+    color: #434841;
+}
+
+
+
+  .login-link {
+    position: absolute;
+    bottom: 20px; /* Se coloca 20px por encima del borde inferior */
+    left: 50%;
+    transform: translateX(-50%); /* Centrar horizontalmente */
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .login-link a {
+    color: #002CC8; /* Color del link */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+  }
+  
