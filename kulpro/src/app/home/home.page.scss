@@ -1,15 +1,46 @@
-.tituloKulpro{
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.titulo-Kulpro {
   background-image: url('../../assets/img/Ellipse.png');
   background-size: 100%;
   background-repeat: no-repeat;
   color: #fff;
-  left: 0px;
-  top: 0px;
   border-bottom-left-radius: 20px;
   width: 38vw;
-  padding: 11px;
+  padding: 10px 10px 17px;
+}
 
-  h2{
-    margin: 14px 0px;
+.titulo-Kulpro h2 {
+  margin: 11px 0px;
+  font-weight: bold;
+}
+
+.iconos {
+  display: flex;
+  gap: 15px; /* Espacio entre los iconos */
+}
+
+ion-icon {
+  font-size: 18px;
+  color: #fff; /* El mismo color azul oscuro que usas */
+  background-color: #011A75;
+  padding: 6px;
+  border-radius: 50px;
+}
+
+.containerHome{
+  padding: 10px;
+}
+
+.welcome{
+  h3{
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
   }
 }
